@@ -39,7 +39,9 @@ Dalam pengembangan sistem tertanam, seringkali diperlukan penyimpanan data yang 
   1. Menginstal dan mengkonfigurasi Arduino IDE untuk ESP32.
   2. Menginstal library NVS yang kompatibel dengan Arduino.
   3. Mengembangkan dan menguji kode untuk menyimpan dan membaca data menggunakan NVS.
-
+ 
+ * **Diagram Alir**
+   ![flowchart_esp32_nvs](https://github.com/user-attachments/assets/74e29b2c-452e-4fb3-a026-fb38fde6bd05)
 ---
 
 ## 4. ⚙️ Perancangan Sistem
