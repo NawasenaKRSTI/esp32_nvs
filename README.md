@@ -8,14 +8,22 @@ Divisi KRSTI – Workshop Robotika
 Proyek ini bertujuan untuk mengeksplorasi dan mengimplementasikan penyimpanan data secara non-volatile pada mikrokontroler ESP32 menggunakan Arduino IDE. Dengan memanfaatkan NVS, data penting dapat disimpan secara permanen di memori flash, memungkinkan perangkat untuk mempertahankan informasi meskipun terjadi pemadaman daya atau reset sistem.
 
 ---
+## 📂 Ringkasan Riset
 
-## 1. 📚 Latar Belakang
+- **Tim/Divisi:** KRSTI / NAWASENA]
+- **Tipe Perangkat:** ESP32
+- **Tanggal Mulai - Selesai:** [26/05/2025  - 27/05/2025]
+- **Status:** ✅ _Selesai_ 
+
+---
+
+## 📚 Latar Belakang
 
 Dalam pengembangan sistem tertanam, seringkali diperlukan penyimpanan data yang dapat bertahan meskipun perangkat dimatikan atau di-reset. ESP32 menyediakan fitur Non-Volatile Storage (NVS) yang memungkinkan penyimpanan pasangan kunci-nilai di memori flash. Namun, implementasi NVS pada Arduino IDE memiliki tantangan tersendiri, terutama dalam hal kompatibilitas dan pemahaman API. Proyek ini bertujuan untuk memahami dan mengimplementasikan NVS pada ESP32 menggunakan Arduino IDE.
 
 ---
 
-## 2. 🎯 Tujuan
+## 🎯 Tujuan
 
 * Mempelajari konsep dan mekanisme kerja NVS pada ESP32.
 * Mengimplementasikan penyimpanan dan pembacaan data menggunakan NVS di Arduino IDE.
@@ -23,7 +31,7 @@ Dalam pengembangan sistem tertanam, seringkali diperlukan penyimpanan data yang 
 
 ---
 
-## 3. 🔬 Metodologi
+## 🔬 Metodologi
 
 * **Perangkat Keras:**
 
@@ -44,13 +52,13 @@ Dalam pengembangan sistem tertanam, seringkali diperlukan penyimpanan data yang 
    ![flowchart_esp32_nvs](https://github.com/user-attachments/assets/74e29b2c-452e-4fb3-a026-fb38fde6bd05)
 ---
 
-## 4. ⚙️ Perancangan Sistem
+## ⚙️ Perancangan Sistem
 
 Sistem terdiri dari ESP32 yang menjalankan program Arduino untuk menyimpan dan membaca data dari NVS. Data disimpan dalam format pasangan kunci-nilai, memungkinkan akses yang efisien dan terstruktur.
 
 ---
 
-## 5. 🧪 Eksperimen & Evaluasi
+## 🧪 Eksperimen & Evaluasi
 
 * **Pengujian Fungsi:**
 
@@ -64,13 +72,13 @@ Sistem terdiri dari ESP32 yang menjalankan program Arduino untuk menyimpan dan m
 
 ---
 
-## 6. 📊 Analisis & Pembahasan
+## 📊 Analisis & Pembahasan
 
 Implementasi NVS pada ESP32 menggunakan Arduino IDE memungkinkan penyimpanan data yang persisten dengan cara yang relatif sederhana. Namun, terdapat beberapa pertimbangan, seperti batasan ukuran memori dan kompleksitas dalam mengelola data yang lebih besar atau kompleks. Penggunaan NVS cocok untuk menyimpan konfigurasi atau data kecil yang perlu dipertahankan antar sesi.
 
 ---
 
-## 7. ✅ Kesimpulan & Rencana Lanjut
+## ✅ Kesimpulan & Rencana Lanjut
 
 * **Kesimpulan:**
 
@@ -88,4 +96,5 @@ Implementasi NVS pada ESP32 menggunakan Arduino IDE memungkinkan penyimpanan dat
 
 | Versi | Tanggal    | Deskripsi Perubahan    | Penulis               |
 | ----- | ---------- | ---------------------- | --------------------- |
-| 1.0   | 2025-05-28 | Draft awal dokumentasi | WenaHarle |
+| 1.0   | 2025-05-26 | Draft awal dokumentasi | WenaHarle |
+| 1.1   | 2025-05-27 | Pengujian | Rifat |
