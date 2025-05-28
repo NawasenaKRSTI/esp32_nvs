@@ -35,14 +35,17 @@ Struktur direktori proyek untuk memudahkan navigasi:
 
 ## 🔬 Metodologi
 
-### 🔧 Perangkat Keras:
 
-* ESP32 Dev Board
-
-### 💻 Perangkat Lunak:
-
-* Arduino IDE dengan dukungan board ESP32
-* Library NVS untuk Arduino (\[GitHub]\[1])
+| Komponen             | Deskripsi                  | Versi/Info Tambahan                                                   |
+| -------------------- | -------------------------- | --------------------------------------------------------------------- |
+| **Platform**         | ESP32 DevModule            | Arduino core ESP32 v3.0.0                                             |
+| **Bahasa**           | C++                        | -                                                                     |
+| **IDE**              | Arduino IDE                | v2.3.0                                                                |
+| **Komunikasi**       | -                          | -                                                                     |
+| **Library**          | NVS library untuk Arduino  | [espressif/arduino-esp32](https://github.com/espressif/arduino-esp32) |
+| **Framework**        | Arduino Framework          | Arduino core ESP32                                                    |
+| **Tipe Penyimpanan** | Non-Volatile Storage (NVS) | Berbasis flash internal                                               |
+| **Tipe Data Uji**    | `int`, `String`            | Tipe dasar key-value                                                  |
 
 ### 📋 Langkah-langkah:
 
