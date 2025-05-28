@@ -50,15 +50,14 @@ Dalam pengembangan sistem tertanam, sering kali dibutuhkan penyimpanan data yang
 2. Menginstal library NVS yang kompatibel.
 3. Mengembangkan dan menguji kode untuk menyimpan dan membaca data menggunakan NVS.
 
-### 🧭 Diagram Alir:
-
-![flowchart\_esp32\_nvs](https://github.com/user-attachments/assets/74e29b2c-452e-4fb3-a026-fb38fde6bd05)
 
 ---
 
 ## ⚙️ Perancangan Sistem
 
 Sistem terdiri dari ESP32 yang menjalankan program Arduino untuk menyimpan dan membaca data dari NVS. Data disimpan dalam format *key-value*, memungkinkan akses yang efisien dan terstruktur.
+
+![flowchart\_esp32\_nvs](https://github.com/user-attachments/assets/74e29b2c-452e-4fb3-a026-fb38fde6bd05)
 
 ---
 
