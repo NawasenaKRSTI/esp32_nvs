@@ -30,6 +30,17 @@ Dalam pengembangan sistem tertanam, seringkali diperlukan penyimpanan data yang 
 * Menyediakan contoh kode dan dokumentasi untuk mempermudah replikasi oleh pengembang lain.
 
 ---
+## 📁 Struktur Folder 
+
+📦 esp32_nvs               → File utama
+├── 📂 src                 → Source code utama
+├── 📂 include             → Header file
+│   ├── 📂 arduino.h       → Header arduino
+│   └── 📂 wena.h          → Header Wena
+├── 📂 DOCS                → Dokumen pendukung dan SDR
+└── 📜 README.md           → Tempat SDR
+
+---
 
 ## 🔬 Metodologi
 
@@ -90,9 +101,8 @@ Implementasi NVS pada ESP32 menggunakan Arduino IDE memungkinkan penyimpanan dat
   * Mengintegrasikan NVS dalam proyek robotika untuk menyimpan parameter konfigurasi.
   * Mengeksplorasi penggunaan NVS untuk menyimpan data log atau histori operasi perangkat.
 
----
 
-## 8. 🕒 Riwayat Revisi
+## 🕒 Riwayat Revisi
 
 | Versi | Tanggal    | Deskripsi Perubahan    | Penulis               |
 | ----- | ---------- | ---------------------- | --------------------- |
