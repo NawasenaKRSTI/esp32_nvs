@@ -31,12 +31,12 @@ Dalam pengembangan sistem tertanam, seringkali diperlukan penyimpanan data yang 
 
 ---
 ## 📁 Struktur Folder 
-
+```
 📦 esp32_nvs               → File utama
 ├── 📜 nvs_esp32.ino       → Source code utama
 ├── 📜 tutorial.md         → Dokumen Penggunaan Code
 └── 📜 README.md           → Tempat SDR
-
+```
 ---
 
 ## 🔬 Metodologi
