@@ -1,14 +1,10 @@
-# **📘 Tentang Riset:**
+## 📘 Tentang Riset:
 
 * **Judul: Implementasi Penyimpanan Non-Volatile (NVS) pada ESP32 Menggunakan Arduino IDE**
 * **Tim/Divisi:** KRSTI / NAWASENA
 * **Tipe Perangkat:** ESP32
 * **Tanggal:** 26/05/2025 – 27/05/2025
 * **Status:** ✅ *Selesai*
-
-## **📄 Deskripsi Singkat:**
-
-Proyek ini bertujuan untuk mengeksplorasi dan mengimplementasikan penyimpanan data secara *non-volatile* pada mikrokontroler ESP32 menggunakan Arduino IDE. Dengan memanfaatkan NVS, data penting dapat disimpan secara permanen di memori flash, memungkinkan perangkat untuk mempertahankan informasi meskipun terjadi pemadaman daya atau reset sistem.
 
 ---
 
