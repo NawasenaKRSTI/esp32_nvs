@@ -23,7 +23,7 @@ Dalam pengembangan sistem tertanam, sering kali dibutuhkan penyimpanan data yang
 ---
 
 ## 📁 Struktur Folder
-
+Struktur direktori proyek untuk memudahkan navigasi:
 ```
 📦 esp32_nvs               → File utama
 ├── 📜 nvs_esp32.ino       → Source code utama
