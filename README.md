@@ -33,11 +33,8 @@ Dalam pengembangan sistem tertanam, seringkali diperlukan penyimpanan data yang 
 ## 📁 Struktur Folder 
 
 📦 esp32_nvs               → File utama
-├── 📂 src                 → Source code utama
-├── 📂 include             → Header file
-│   ├── 📂 arduino.h       → Header arduino
-│   └── 📂 wena.h          → Header Wena
-├── 📂 DOCS                → Dokumen pendukung dan SDR
+├── 📜 nvs_esp32.ino       → Source code utama
+├── 📜 tutorial.md         → Dokumen Penggunaan Code
 └── 📜 README.md           → Tempat SDR
 
 ---
